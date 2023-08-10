@@ -1,0 +1,182 @@
+
+.main-div{
+    height: 2000px;
+    width: 100%;
+   
+    border-top-color: aliceblue;
+}
+body{
+    margin: 0;
+
+}
+.bar{
+    width: 100%;
+    height: 91px;
+    background-color: red;
+    margin-bottom: 2px ;
+}
+.logo{
+    height: 91px;
+    width: 90px;
+    margin-left: 165px;
+}
+.menu ul li:hover{
+    cursor: pointer;
+}
+.menu-icon{
+    color: white;
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 25px;
+    left: 250px;
+    column-gap: 30px;
+    font-weight: bold;
+}
+.bar-icon{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    margin-right: 10px;
+}
+.icon{
+    display: flex;
+    padding: 30px;
+}
+.icon li{
+    height: 50px;
+    width: 30px;
+    color: white;
+    list-style: none;
+}
+.icon-bar{
+    margin-left: 110px;
+    margin-top: 48px;
+    position: absolute;
+    top: -6px;
+    left: 1060px;
+}
+.icon-bar i:hover{
+    cursor: pointer;
+}
+.cello-banner{
+    
+    width: 100%;
+    margin: 0;
+}
+.banner{
+  margin: 0;
+    width: 100%;
+    border-bottom: 10px solid red;
+    
+}
+.heading{
+    padding-top: 50px;
+    color: aliceblue;
+    font-family: 'REM',sans-serif;
+    font-size: 20px;
+    color: red;
+   
+}
+.heading1{
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+.desc{
+    color: aliceblue;
+   text-align: center;
+   
+}
+.pens{
+   width: 600px;
+    display: inline;
+    text-align: center;
+
+    
+}
+.pens img{
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 357px;
+    
+}.desc p{
+    color: black;
+    font-family: 'REM',sans-serif;
+    font-size: 18px;
+}
+.footer-first li:hover{
+    cursor: pointer;
+    color: darkgoldenrod;
+}
+.footer-sec li:hover{
+    cursor: pointer;
+    color: orange;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: red;
+    width: 100%;
+    color: white;
+    height: 500px;
+    font-family: 'REM',sans-serif;
+    height: 520px;
+
+}   
+.footer li{
+    list-style: none;
+}.footer div{
+    width: 250px;
+   margin-left: 100px;
+    padding-top: 60PX;
+    line-height: 30px;
+    font-size: 15px; 
+    width: 250px;
+    
+} 
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+i{
+    width: 10px;
+    color: white;
+    margin-right:20px ;
+} .social i{
+    align-items:start;
+    width: 20px;
+    margin-top: 20px;
+    border-right: 1px solid white;
+    padding-right: 2px;
+   margin-top: 0;
+}
+.social i:hover{
+    cursor: pointer;
+    opacity: 0.5s;
+    color: black;
+}
+.copy{
+    height: 10px;
+    width: 1519px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+
+}
+.cr{
+    margin-bottom: 80px;
+}
+.pens:hover{
+    cursor: pointer;
+}
+.icon-bar, span{
+    color: #fff;
+    margin-right: 10px;
+}
